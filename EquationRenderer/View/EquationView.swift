@@ -16,8 +16,8 @@ class EquationView: UIView {
         let logoView = UIView()
         let logoLabel = UILabel()
        
-        let attributedTitle = NSMutableAttributedString(string: "rob", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 22.0), NSAttributedString.Key.foregroundColor : UIColor.black])
-        attributedTitle.append(NSMutableAttributedString(string: "art", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 22.0), NSAttributedString.Key.foregroundColor : UIColor.systemBlue]))
+        let attributedTitle = NSMutableAttributedString(string: "Wiki", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 22.0), NSAttributedString.Key.foregroundColor : UIColor.black])
+        attributedTitle.append(NSMutableAttributedString(string: "media", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 22.0), NSAttributedString.Key.foregroundColor : UIColor.systemBlue]))
         attributedTitle.append(NSMutableAttributedString(string: "  Formula Renderer", attributes: [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 22.0), NSAttributedString.Key.foregroundColor : UIColor.white]))
         logoLabel.attributedText = attributedTitle
         
