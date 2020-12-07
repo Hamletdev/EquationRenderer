@@ -11,6 +11,7 @@
 		DA8A7A00256E81E80062C781 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A79FF256E81E80062C781 /* Constants.swift */; };
 		DA8A7A03256E8D0C0062C781 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8A7A02256E8D0C0062C781 /* Reachability.swift */; };
 		DA9351992565973B00CBFC7A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA9351972565973B00CBFC7A /* DataModel.xcdatamodeld */; };
+		DA9F15D7257E5897006436F2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA9F15D6257E5896006436F2 /* README.md */; };
 		DAAF3A31256ADC8A00023768 /* EquationRendererTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3A30256ADC8A00023768 /* EquationRendererTests.swift */; };
 		DAAF3A3F256B875700023768 /* EquationRendererUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAF3A3E256B875700023768 /* EquationRendererUITests.swift */; };
 		DAD4DC57256E4CA300D3ABB2 /* WikimediaRestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD4DC56256E4CA300D3ABB2 /* WikimediaRestHandler.swift */; };
@@ -47,6 +48,7 @@
 		DA8A79FF256E81E80062C781 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DA8A7A02256E8D0C0062C781 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		DA9351982565973B00CBFC7A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		DA9F15D6257E5896006436F2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		DAAF3A2E256ADC8A00023768 /* EquationRendererTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EquationRendererTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAF3A30256ADC8A00023768 /* EquationRendererTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquationRendererTests.swift; sourceTree = "<group>"; };
 		DAAF3A32256ADC8A00023768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		DA8A7A01256E830A0062C781 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DA9F15D6257E5896006436F2 /* README.md */,
 				DAEC2AB125629A4E00B3ABBB /* LaunchScreen.storyboard */,
 				DAEC2AAF25629A4E00B3ABBB /* Assets.xcassets */,
 			);
@@ -346,6 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9F15D7257E5897006436F2 /* README.md in Resources */,
 				DAEC2AB325629A4E00B3ABBB /* LaunchScreen.storyboard in Resources */,
 				DAEC2AB025629A4E00B3ABBB /* Assets.xcassets in Resources */,
 			);
